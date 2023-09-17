@@ -3,8 +3,11 @@
 </div>
 
 
-<div class="courses" *ngFor="let month of months, let idx = index">
-  <month-card [month]="month">
+<div class="courses" *ngFor="let month of months, index as idx, odd as isOdd, even as isEven">
+  <month-card [month]="month"
+    [class.is-even]="isEven"
+    [class.is-odd]="isOdd"
+  >
     <month-image [src]="month.iconUrl"></month-image>
 
     <div class="month-description">
