@@ -1,0 +1,11 @@
+
+<div class="month-card" *ngIf="month">
+
+  <div class="month-title">
+    {{ cardIndex || '' + ' ' + month.description }}
+  </div>
+
+  <ng-content select="month-image"></ng-content>
+
+  <ng-content select=".month-description"></ng-content>
+</div>
