@@ -1,28 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-
-month-card {
-  display: block;
-}
-
-month-card.is-first {
-  border-top: 2px solid grey;
-  padding-top: 20px;
-}
-
-month-card.is-last {
-  border-bottom: 2px solid grey;
-  padding-top: 20px;
-}
-
-month-card.is-even {
-  background: lightgray;
-}
-
-
-month-card.is-odd {
-  background: lightcyan;
-}
-
 .month-card .month-title {
   font-size: 27px;
   font-weight: bold;
