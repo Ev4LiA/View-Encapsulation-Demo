@@ -1,9 +1,12 @@
 <div class="top-menu">
   <span class="top-menu-title">View Encapsulation Demo - 2023 Calendar</span>
 </div>
+<div class="month-card">
+  The sky is always blue. (I'm must be drunk now)
+</div>
 
 
-<div class="courses" *ngFor="let month of months, index as idx, odd as isOdd, even as isEven">
+<div class="months" *ngFor="let month of months, index as idx, odd as isOdd, even as isEven">
   <month-card [month]="month"
     [class.is-even]="isEven"
     [class.is-odd]="isOdd"
@@ -12,7 +15,7 @@
 
     <div class="month-description">
       {{ month.longDescription }}
-    </div>
+    </div>p
   </month-card>
 </div>
 
