@@ -19,7 +19,7 @@
   background: lightcyan;
 }
 
-::ng-deep.salmon-theme .month-card {
+:host-context(.salmon-theme) .month-card {
   background: lightsalmon;
 }
 

@@ -2,9 +2,9 @@
   <span class="top-menu-title">View Encapsulation Demo - 2023 Calendar</span>
 </div>
 <div class="salmon-theme">
-<div class="month-card">
-  The sky is always blue. The moon is always beautiful
-</div>
+  <div class="month-card">
+    The sky is always blue. The moon is always beautiful
+  </div>
   <div class="months" *ngFor="let month of months, index as idx, odd as isOdd, even as isEven">
     <month-card [month]="month"
                 [class.is-even]="isEven"
