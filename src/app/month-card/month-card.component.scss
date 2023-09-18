@@ -18,3 +18,20 @@
 :host.is-odd {
   background: lightcyan;
 }
+
+.month-card .month-title {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.month-card ::ng-deep.month-description {
+  max-width: 360px;
+  margin: 0 auto;
+  margin-top: 15px;
+  user-select: none;
+}
+
+.month-card img {
+  border-radius: 4px;
+  margin-top: 10px;
+}
